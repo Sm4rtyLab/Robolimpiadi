@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Micromouse | Front - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+  <!-- Font -->
+  <link href="@@vars.themeFont" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <!-- bundlecss:vendor [@@autopath] -->
+  <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+  <!-- CSS Front Template -->
+  <!-- bundlecss:theme [@@autopath] @@vars.version -->
+  <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  @@include("@@autopath/partials/navbar/main.html", {
+    "topbarcategory": "demos",
+    "topbarlink": "main",
+    "category": "company",
+    "subcategory": "",
+    "link": "micromouse.html"
+  })
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Hero -->
+    <div class="bg-dark" style="background-image: url(@@autopath/assets/svg/components/wave-pattern-light.svg);">
+      <div class="container content-space-2 content-space-lg-3">
+        <div class="w-lg-65 text-center mx-lg-auto">
+          <span class="badge bg-warning text-dark rounded-pill mb-3">Categoria</span>
+          <h1 class="text-white mb-0">Micromouse</h1>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Content -->
+    <div class="container content-space-2 content-space-lg-0 h-75">
+      <div class="row">
+        <div class="col-lg-4 mt-lg-n10 mb-7 mb-lg-0">
+          <!-- Sticky Block -->
+          <div id="stickyBlockStartPoint">
+            <div class="js-sticky-block"
+                  data-hs-sticky-block-options='{
+                   "parentSelector": "#stickyBlockStartPoint",
+                   "targetSelector": "#header",
+                   "breakpoint": "lg",
+                   "startPoint": "#stickyBlockStartPoint",
+                   "endPoint": "#stickyBlockEndPoint",
+                   "stickyOffsetTop": 20
+                 }'>
+              <!-- Card -->
+              <div class="card">
+                <div class="card-header border-bottom text-center">
+                  <img class="avatar avatar-xxl avatar-4x3" src="@@autopath/assets/svg/category/micromouse.svg" alt="Logo">
+                </div>
+
+                <div class="card-body">
+                  <dl class="row">
+                    <dt class="col-sm-4">Nome</dt>
+                    <dd class="col-sm-8">Micromouse</dd>
+                  </dl>
+                  <!-- End Row -->
+
+                  <dl class="row">
+                    <dt class="col-sm-4">Max team members</dt>
+                    <dd class="col-sm-8">4</dd>
+                  </dl>
+                  <!-- End Row -->
+
+                  <dl class="row">
+                    <dt class="col-sm-4">Goals</dt>
+                    <dd class="col-sm-8">Raggiungere il centro del labirinto</dd>
+                  </dl>
+                  <!-- End Row -->
+
+                 
+                  <!-- End Row -->
+
+                  <hr class="my-4">
+
+                  <div class="mb-3">
+                    <h4>Regolamento</h4>
+                  </div>
+
+                  <dl class="row">
+                    <dt class="col-sm-4 mb-2 mb-sm-0">
+                      <div class="svg-icon text-primary">
+                        @@include("@@autopath/assets/vendor/duotone-icons/fil/fil004.svg")
+                      </div>
+                    </dt>
+                    <!-- End Col -->
+
+                    <dd class="col-sm-8">
+                      <h5 class="mb-0">Regolamento generale</h5>
+                      <p class="mb-0">Download PDF</p>
+                    </dd>
+                    <!-- End Col -->
+                  </dl>
+                  <!-- End Row -->
+
+                  <dl class="row">
+                    <dt class="col-sm-4 mb-2 mb-sm-0">
+                      <div class="svg-icon text-primary">
+                        @@include("@@autopath/assets/vendor/duotone-icons/fil/fil004.svg")
+                      </div>
+                    </dt>
+                    <!-- End Col -->
+
+                    <dd class="col-sm-8">
+                      <h5 class="mb-0">Regolamento</h5>
+                      <p class="mb-0">Download PDF</p>
+                    </dd>
+                    <!-- End Col -->
+                  </dl>
+                  <!-- End Row -->
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+          <!-- Sticky Block -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-lg-8 content-space-t-lg-2 " style="height:400px">
+          <div class="ps-lg-4">
+            <h2 class="h3">Regolamento presto disponibile</h2>
+            <p>Non abbiamo bevuto ancora abbastanza caffè per finire il regolamento.</p>
+            
+            <p>Se vuoi regalarcene un po' visita la pagina delle donazioni</p>
+            
+            <!-- End Sticky End Point -->
+            <div id="stickyBlockEndPoint"></div>
+          </div>
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Content -->
+
+    <!-- Testimonials -->
+    <div class="container content-space-b-2 content-space-lg-3">
+      <div class="text-center mb-5">
+        <img class="avatar avatar-lg avatar-4x3" src="@@autopath/assets/svg/illustrations/oc-person-2.svg" alt="Illustration">
+      </div>
+      
+      <!-- Blockquote -->
+      <figure class="w-md-75 text-center mx-md-auto">
+        <blockquote class="blockquote">“ Ti do due minuti per disegnare un labirinto che ne richieda uno per risolverlo. ”</blockquote>
+
+        <figcaption class="blockquote-footer text-center">
+          Dom Cobb
+          <span class="blockquote-footer-source">Inception</span>
+        </figcaption>
+      </figure>
+      <!-- End Blockquote -->
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Card Grid -->
+
+    <!-- End Card Grid -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+  <div class="container border-top" style="border-width: 10px!important;"></div>
+  <!-- ========== FOOTER ========== -->
+  @@include("@@autopath/partials/footer/variant-1.html")
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Sign Up -->
+  
+  
+  <!-- Go To -->
+  @@include("@@autopath/partials/layouts-components/go-to.html")
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Global Compulsory @@deleteLine:build -->
+  <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <!-- bundlejs:vendor [@@autopath] -->
+  <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="@@autopath/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+
+  <!-- JS Front -->
+  <!-- bundlejs:theme [@@autopath] -->
+  <script src="@@autopath/assets/js/hs.core.js"></script>
+  <script src="@@autopath/assets/js/hs.bs-dropdown.js"></script>
+  <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF HEADER
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF BOOTSTRAP VALIDATION
+      // =======================================================
+      HSBsValidation.init('.js-validate', {
+        onSubmit: data => {
+          data.event.preventDefault()
+          alert('Submited')
+        }
+      })
+
+
+      // INITIALIZATION OF BOOTSTRAP DROPDOWN
+      // =======================================================
+      HSBsDropdown.init()
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF STICKY BLOCKS
+      // =======================================================
+      new HSStickyBlock('.js-sticky-block', {
+        targetSelector: document.getElementById('header').classList.contains('navbar-fixed') ? '#header' : null
+      })
+    })()
+  </script>
+</body>
+</html>
